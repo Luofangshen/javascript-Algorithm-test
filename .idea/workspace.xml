@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="428fe168-4206-4f76-9c71-3b3529973269" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/free-camp-code-javascript/15.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/free-camp-code-javascript/16.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/free-camp-code-javascript/17.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/free-camp-code-javascript/18.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/free-camp-code-javascript/19.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/free-camp-code-javascript/20.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,7 +17,29 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="20.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/free-camp-code-javascript/20.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="18.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/free-camp-code-javascript/18.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -55,6 +75,9 @@
         <option value="$PROJECT_DIR$/free-camp-code-javascript/16.js" />
         <option value="$PROJECT_DIR$/free-camp-code-javascript/17.js" />
         <option value="$PROJECT_DIR$/free-camp-code-javascript/18.js" />
+        <option value="$PROJECT_DIR$/free-camp-code-javascript/21.js" />
+        <option value="$PROJECT_DIR$/free-camp-code-javascript/19.js" />
+        <option value="$PROJECT_DIR$/free-camp-code-javascript/20.js" />
       </list>
     </option>
   </component>
@@ -81,7 +104,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -98,6 +120,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -120,26 +143,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.18.js">
-    <configuration name="14.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="14.js" working-dir="$PROJECT_DIR$/free-camp-code-javascript" />
-    <configuration name="15.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="15.js" working-dir="$PROJECT_DIR$/free-camp-code-javascript" />
-    <configuration name="16.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="16.js" working-dir="$PROJECT_DIR$/free-camp-code-javascript" />
+  <component name="RunManager" selected="Node.js.20.js">
     <configuration name="17.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="17.js" working-dir="$PROJECT_DIR$/free-camp-code-javascript" />
     <configuration name="18.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="18.js" working-dir="$PROJECT_DIR$/free-camp-code-javascript" />
+    <configuration name="19.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="19.js" working-dir="$PROJECT_DIR$/free-camp-code-javascript" />
+    <configuration name="20.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="20.js" working-dir="$PROJECT_DIR$/free-camp-code-javascript" />
+    <configuration name="21.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="21.js" working-dir="$PROJECT_DIR$/free-camp-code-javascript" />
     <list>
-      <item itemvalue="Node.js.14.js" />
-      <item itemvalue="Node.js.15.js" />
-      <item itemvalue="Node.js.16.js" />
       <item itemvalue="Node.js.17.js" />
       <item itemvalue="Node.js.18.js" />
+      <item itemvalue="Node.js.19.js" />
+      <item itemvalue="Node.js.21.js" />
+      <item itemvalue="Node.js.20.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.20.js" />
+        <item itemvalue="Node.js.19.js" />
+        <item itemvalue="Node.js.21.js" />
         <item itemvalue="Node.js.18.js" />
         <item itemvalue="Node.js.17.js" />
-        <item itemvalue="Node.js.16.js" />
-        <item itemvalue="Node.js.15.js" />
-        <item itemvalue="Node.js.14.js" />
       </list>
     </recent_temporary>
   </component>
@@ -161,11 +184,13 @@
       <workItem from="1537234125505" duration="240000" />
       <workItem from="1537235698879" duration="2743000" />
       <workItem from="1537347357405" duration="5698000" />
+      <workItem from="1537362642142" duration="6000" />
+      <workItem from="1537432480934" duration="6536000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20191000" />
+    <option name="totallyTimeSpent" value="26733000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1618" height="870" extended-state="6" />
@@ -271,9 +296,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -319,23 +341,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/free-camp-code-javascript/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/free-camp-code-javascript/test.html" />
     <entry file="file://$PROJECT_DIR$/free-camp-code-javascript/14.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -343,19 +353,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/free-camp-code-javascript/17.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -363,6 +360,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/free-camp-code-javascript/17.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/free-camp-code-javascript/21.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/free-camp-code-javascript/19.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="29" column="10" lean-forward="true" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -371,8 +389,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/free-camp-code-javascript/18.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        <state relative-caret-position="132">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/free-camp-code-javascript/20.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
