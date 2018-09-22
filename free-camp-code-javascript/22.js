@@ -9,7 +9,7 @@ Pig Latin 把一个英文单词的第一个辅音或辅音丛（consonant cluste
 function translate(str) {
   let newStr = ''
   for (let n of str) {
-    if (/a|e|i|o|u/ig.test(n)) {
+    if (/[aeiou]/ig.test(n)) {
       break
     }
     newStr += n
