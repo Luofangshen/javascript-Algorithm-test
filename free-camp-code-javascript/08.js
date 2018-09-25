@@ -20,4 +20,4 @@ function repeat(str, num) {
   }
 }
 
-console.log(repeat("abc", 8)) ;
+console.log(repeat("abc", 6)) ;

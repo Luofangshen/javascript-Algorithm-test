@@ -15,4 +15,4 @@ function reverseStr(str) {
   return newStr
 }
 
-reverseStr('SATCD')
+reverseStr('SATCDaac')

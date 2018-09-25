@@ -9,8 +9,29 @@
  */
 
 function sumFibs(num) {
-
-  return num;
+  let i = 0
+  let sum = 0
+  function fibonacci(num) {
+    if (num <= 2) {
+      return 1
+    } else {
+      let sum = 0
+      let sum1 = 1
+      let sum2 = 1
+      for (let i = 3; i <= num; i++) {
+        sum = sum1 + sum2
+        sum1 = sum2
+        sum2 = sum
+      }
+      return sum
+    }
+  }
+  while (fibonacci(++i) <= num) {
+    if (fibonacci(i) % 2 !== 0) {
+      sum += fibonacci(i)
+    }
+  }
+  return sum;
 }
 
-sumFibs(4);
+sumFibs(75025);

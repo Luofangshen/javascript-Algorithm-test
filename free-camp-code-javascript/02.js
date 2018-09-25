@@ -16,4 +16,4 @@ function factorial(num) {
     return num
   }
 }
-console.log(factorial(5))
+console.log(factorial(20))
