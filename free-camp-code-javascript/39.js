@@ -21,7 +21,30 @@ sym([3, 3, 3, 2, 5], [2, 1, 5, 7], [3, 4, 6, 6], [1, 2, 3], [5, 3, 9, 8], [1]) å
  */
 
 function sym(args) {
-  return args;
+  function symtwo(arr1, arr2) {
+    for (let i = 0; i < arr1.length; i++) {
+      if (arr2.indexOf(arr1[i]) !== -1) {
+        while (arr2.indexOf(arr1[i]) !== -1) {
+          arr2.splice(arr2.indexOf(arr1[i]), 1)
+        }
+        arr1.splice(i, 1)
+        i--
+      }
+    }
+    let newArr = arr1.concat(arr2)
+    return newArr
+  }
+  let arr = symtwo(arguments[0], arguments[1])
+  for (let i = 2; i < arguments.length; i++) {
+    arr = symtwo(arr, arguments[i])
+  }
+  let set = new Set(arr)
+  let arrNR = []
+  for (let n of set) {
+    arrNR.push(n)
+  }
+  console.log(arrNR)
+  return arrNR;
 }
 
-sym([1, 2, 3], [5, 2, 1, 4]);
+sym([3, 3, 3, 2, 5], [2, 1, 5, 7], [3, 4, 6, 6], [1, 2, 3], [5, 3, 9, 8], [1]);
