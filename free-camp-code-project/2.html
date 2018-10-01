@@ -2,9 +2,74 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>danmuApp</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <style>
+        .inputWrap{
+            text-align: center;
+        }
+        .wrap{
+            position: relative;
+            margin-top: 10px;
+            height: 300px;
+            border: 1px solid #DDDDDD;
+            overflow: hidden;
+        }
+        .wrap > p{
+            position: absolute;
+            animation: move 10s both 1 linear;
+        }
+        #inputText{
+            margin: 0 auto;
+            width: 300px;
+        }
+
+    </style>
 </head>
 <body>
+<div class="wrap container-fluid">
 
+</div>
+<br>
+<div class="container inputWrap">
+    <input type="text" class="form-control" id="inputText" placeholder="输入" maxlength="20">
+    <br>
+    <button class="btn btn-default" type="submit" id="btn01">发射</button> &nbsp;&nbsp;&nbsp;
+    <button class="btn btn-default" type="submit" id="btn02">清屏</button>
+</div>
+<script type="text/javascript">
+  window.onload = function () {
+    let wrapNode = document.querySelector('.wrap')
+    let inputTextNode = document.querySelector('#inputText')
+    let btn01 = document.querySelector('#btn01')
+    let btn02 = document.querySelector('#btn02')
+    // 利用JS控制style标签 因为里面宽度需要用到JS代码控制
+    let styleNode = document.createElement('style')
+    styleNode.innerHTML= `@keyframes move {from{left: ${wrapNode.offsetWidth + 20}px;}to{left: -500px;}}`
+    document.head.appendChild(styleNode)
+    btn01.onclick = function () {
+      let content = inputTextNode.value
+      inputTextNode.value = ''
+      let pNode = document.createElement('p')
+      // 随机高度
+      pNode.innerHTML = content
+      pNode.style.top = Math.random() * wrapNode.clientHeight - pNode.offsetHeight + 'px'
+      pNode.style.whiteSpace = 'nowrap'
+      // 弹幕飘完了就自杀
+      wrapNode.appendChild(pNode)
+      pNode.addEventListener('animationend', function () {
+        pNode.parentNode.removeChild(pNode)
+      })
+    }
+    btn02.onclick = function () {
+      // 利用了whild循环很巧妙的删除了全部的子元素 借鉴了Vue源码中取子元素到fragment中的方法 很巧妙
+      let first
+      while (first = wrapNode.firstChild) {
+        wrapNode.removeChild(first)
+      }
+    }
+  }
+</script>
 </body>
 </html>
